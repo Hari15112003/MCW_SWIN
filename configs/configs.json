@@ -1,0 +1,55 @@
+{
+  "general": {
+      "device": "cuda",
+      "num_classes": 1000,
+      "images_per_class": 5,
+      "batch_size": 128,
+      "pretrained": true,
+      "resize": 224,
+      "horizontal_flip": true,
+      "normalize": true
+  },
+  "training": {
+      "batch_size": 128,
+      "epochs": 10,
+      "max_epochs": 20,
+      "learning_rate": 5e-7,
+      "weight_decay": 1e-4,
+      "decay_rate": 0.1,
+      "learning_rate_schedule": [5, 10],
+      "optimizer": "adam",
+      "debug_steps": 1000
+  },
+  "quantization": {
+      
+      "quant_scheme": "tf_enhanced",
+      "round_mode": "nearest",
+      "default_param_bw": 8,
+      "default_output_bw": 8,
+      "weight_bw": 8,
+      "act_bw":8,
+      "auto_quant": false,
+      "manual_quant": false,
+      "qat": false,
+      "ptq_flag":true,
+      "ptq": {
+        "cle": true , 
+        "bc": false 
+      }
+   
+   
+  },
+  "paths": {
+      "save_model_path": "/media/ava/workspace/harish/swin/artifacts",
+      "log_file": "/media/ava/workspace/harish/swin/logs/app.log",
+      "train_data_path": "/media/ava/DATA/datasets/50k_imagenet/train/",
+      "val_data_path": "/media/ava/DATA/datasets/50k_imagenet/val/"
+  },
+  "logging": {
+      "log_level": "info"
+  } , 
+  "auto_quant":{
+    "default_num_iterations": 2000 ,
+    "allowed_accuracy_drop" : 0.01
+  }
+}
