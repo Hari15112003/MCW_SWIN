@@ -28,7 +28,7 @@
       "default_output_bw": 8,
       "weight_bw": 8,
       "act_bw":8,
-      "auto_quant": false,
+      "auto_quant": true,
       "manual_quant": false,
       "qat": true,
       "ptq_flag":true,

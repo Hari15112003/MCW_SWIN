@@ -1398,3 +1398,773 @@
 2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
 2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
 2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:11:59,220 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,272 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,273 - INFO - Loading labeled dataset...
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:30,370 - INFO - Performing Manual Quantization...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,208 - INFO - Loading labeled dataset...
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:12:55,267 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,265 - INFO - Loading labeled dataset...
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:14:44,322 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,216 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:03,219 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,200 - INFO - Loading labeled dataset...
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:15:44,298 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,077 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:05,078 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,857 - INFO - Loading labeled dataset...
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:16:43,932 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:04,978 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,686 - INFO - Loading labeled dataset...
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:40,782 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,711 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:17:59,712 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,113 - INFO - Loading labeled dataset...
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:33,205 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,023 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:18:52,024 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,669 - INFO - Loading labeled dataset...
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:25,722 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,375 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:19:44,376 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:17,948 - INFO - Loading labeled dataset...
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:18,054 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:20:37,080 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,721 - INFO - Loading labeled dataset...
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:10,801 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,883 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:21:29,884 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,445 - INFO - Loading labeled dataset...
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:03,525 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:22,381 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,118 - INFO - Loading labeled dataset...
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:22:56,202 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,978 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:14,979 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,507 - INFO - Loading labeled dataset...
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:23:48,590 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,450 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:07,451 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,086 - INFO - Loading labeled dataset...
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:41,179 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,944 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:24:59,945 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,462 - INFO - Loading labeled dataset...
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:33,551 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,213 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:25:52,215 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,394 - INFO - Loading labeled dataset...
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:26,505 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:26:45,393 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,260 - INFO - Loading labeled dataset...
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:19,323 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:27:38,454 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,786 - INFO - Loading labeled dataset...
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:11,841 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,777 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:28:30,779 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,173 - INFO - Loading labeled dataset...
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:04,229 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,137 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:23,138 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,783 - INFO - Loading labeled dataset...
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:29:56,877 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:15,927 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,320 - INFO - Loading labeled dataset...
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:30:49,422 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,377 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:08,378 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:41,907 - INFO - Loading labeled dataset...
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:31:42,018 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,685 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:00,686 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,320 - INFO - Loading labeled dataset...
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:34,389 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,290 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,291 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:32:53,299 - INFO -  Quantization-Aware Training complete.
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:00,735 - INFO - Loading labeled dataset...
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:33:01,119 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:00,140 - INFO - Performing Manual Quantization...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,695 - INFO - Loading labeled dataset...
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:34:25,757 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,607 - INFO - Loading labeled dataset...
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:08,661 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,745 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,748 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:36:27,758 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:31,722 - INFO - Preparing and validating the model for quantization...
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,836 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,894 - INFO - ?? Running AutoQuant...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:52,898 - INFO - Loading labeled dataset...
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
+2025-03-05 16:42:53,021 - INFO - Dataset size: 400 | DataLoader batches: 13
