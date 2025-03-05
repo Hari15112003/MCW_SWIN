@@ -22,7 +22,7 @@ def run_autoquant(prepared_model, dataloader, device):
     os.makedirs(f"{export_path}/auto_quant", exist_ok=True)
     auto_quant = AutoQuant(prepared_model, dummy_input=dummy_input, data_loader=dataloader,
                            eval_callback=eval_callback, results_dir=f"{export_path}/auto_quant", model_prepare_required=False)
-
+ 
     # Run inference before optimization
     sim, initial_accuracy = auto_quant.run_inference()
     logger.info("- Initial Quantized Accuracy: {initial_accuracy:.4f}")

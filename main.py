@@ -72,8 +72,7 @@ def main():
     # Load dataset
             _, dataloader = load_unlabeled_data(num_of_classes=config["general"]["num_classes"],images_per_class=config["general"]["images_per_class"], batch_size=config["general"]["batch_size"])
             cross_layer_equalization(prepared_model , dataloader, device , path= "swin_after_crosslayer")
-        if config["quantization"]["ptq"]['bf'] ==True:
-            print("BF")
+
     
     
 

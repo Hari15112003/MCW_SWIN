@@ -1,0 +1,1001 @@
+
+2025-03-05 13:47:43,094 - Utils - INFO - The following validator checks failed:
+2025-03-05 13:47:43,094 - Utils - INFO -        <function validate_for_missing_modules at 0x7f04dc5ceb00>
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,094 - AIMET_Pipeline - INFO - âœ… Model successfully prepared and validated for AIMET quantization.
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - INFO - Loading labeled dataset...
+2025-03-05 13:47:43,095 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - INFO - Performing Manual Quantization...
+2025-03-05 13:47:43,139 - AIMET_Pipeline - INFO - Performing Manual Quantization...
+2025-03-05 13:47:57,559 - ConnectedGraph - WARNING - Unable to isolate model outputs.
+2025-03-05 13:47:57,706 - Quant - INFO - No config file provided, defaulting to config file at /home/ava/anaconda3/envs/harish-swin/lib/python3.10/site-packages/aimet_common/quantsim_config/default_config.json
+2025-03-05 13:47:57,730 - Quant - INFO - Unsupported op type Squeeze
+2025-03-05 13:47:57,730 - Quant - INFO - Unsupported op type Mean
+2025-03-05 13:47:57,912 - Quant - INFO - Selecting DefaultOpInstanceConfigGenerator to compute the specialized config. hw_version:default
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,916 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,917 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,918 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,918 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,918 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,918 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,918 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,919 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,919 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,919 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,919 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,919 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,920 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:57,920 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - INFO - Loading labeled dataset...
+2025-03-05 13:47:58,005 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:47:58,048 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - INFO - Loading labeled dataset...
+2025-03-05 13:49:20,302 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:49:20,345 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.26it/s]
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,038 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:38,039 - AIMET_Pipeline - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 13:49:41,711 - Utils - INFO - successfully created onnx model with 481/3029 node names updated
+2025-03-05 13:49:42,495 - Quant - INFO - Layers excluded from quantization: []
+2025-03-05 13:49:42,499 - Quant - WARNING - Quantsim export will stop exporting encodings for saving and loading in a future AIMET release.
+To export encodings for saving and loading, use QuantizationSimModel's save_encodings_to_json() utility instead.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - INFO - Loading labeled dataset...
+2025-03-05 13:50:15,066 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:50:15,109 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8946
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:50:32,893 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9890
+eval :  0.8946
+At the end of Epoch #1/20: Global Avg Loss=0.583402, Eval Accuracy=0.8946
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - INFO - Loading labeled dataset...
+2025-03-05 13:51:05,190 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:05,235 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,002 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8964
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:51:23,003 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9886
+eval :  0.8964
+At the end of Epoch #2/20: Global Avg Loss=0.585196, Eval Accuracy=0.8964
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - INFO - Loading labeled dataset...
+2025-03-05 13:51:55,271 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:51:55,316 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.26it/s]
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,056 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8992
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - INFO - Top-5 Accuracy: 0.9872
+2025-03-05 13:52:13,057 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9872
+eval :  0.8992
+At the end of Epoch #3/20: Global Avg Loss=0.562440, Eval Accuracy=0.8992
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - INFO - Loading labeled dataset...
+2025-03-05 13:52:45,425 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:52:45,470 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8962
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:53:03,282 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9886
+eval :  0.8962
+At the end of Epoch #4/20: Global Avg Loss=0.553176, Eval Accuracy=0.8962
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - INFO - Loading labeled dataset...
+2025-03-05 13:53:35,636 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:53:35,681 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8986
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - INFO - Top-5 Accuracy: 0.9874
+2025-03-05 13:53:53,438 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9874
+eval :  0.8986
+At the end of Epoch #5/20: Global Avg Loss=0.551587, Eval Accuracy=0.8986
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - INFO - Loading labeled dataset...
+2025-03-05 13:54:25,709 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:54:25,753 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:54:43,534 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9884
+eval :  0.8968
+At the end of Epoch #6/20: Global Avg Loss=0.553945, Eval Accuracy=0.8968
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - INFO - Loading labeled dataset...
+2025-03-05 13:55:15,878 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:55:15,923 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,688 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - INFO - Top-5 Accuracy: 0.9902
+2025-03-05 13:55:33,689 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9902
+eval :  0.8956
+At the end of Epoch #7/20: Global Avg Loss=0.553443, Eval Accuracy=0.8956
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - INFO - Loading labeled dataset...
+2025-03-05 13:56:05,970 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:06,015 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,831 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8940
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - INFO - Top-5 Accuracy: 0.9886
+2025-03-05 13:56:23,832 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9886
+eval :  0.894
+At the end of Epoch #8/20: Global Avg Loss=0.553286, Eval Accuracy=0.8940
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - INFO - Loading labeled dataset...
+2025-03-05 13:56:56,211 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:56:56,256 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.24it/s]
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8936
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 13:57:14,105 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9890
+eval :  0.8936
+At the end of Epoch #9/20: Global Avg Loss=0.553604, Eval Accuracy=0.8936
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - INFO - Loading labeled dataset...
+2025-03-05 13:57:46,583 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:57:46,628 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.26it/s]
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - INFO - Top-5 Accuracy: 0.9882
+2025-03-05 13:58:04,374 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9882
+eval :  0.8948
+At the end of Epoch #10/20: Global Avg Loss=0.556511, Eval Accuracy=0.8948
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - INFO - Loading labeled dataset...
+2025-03-05 13:58:36,691 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:58:36,735 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.24it/s]
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8948
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - INFO - Top-5 Accuracy: 0.9884
+2025-03-05 13:58:54,574 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9884
+eval :  0.8948
+At the end of Epoch #11/20: Global Avg Loss=0.549014, Eval Accuracy=0.8948
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - INFO - Loading labeled dataset...
+2025-03-05 13:59:26,960 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 13:59:27,005 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.24it/s]
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - INFO - Top-5 Accuracy: 0.9868
+2025-03-05 13:59:44,835 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9868
+eval :  0.8958
+At the end of Epoch #12/20: Global Avg Loss=0.554054, Eval Accuracy=0.8958
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.24it/s]
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - INFO - Loading labeled dataset...
+2025-03-05 14:00:17,369 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:00:17,413 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,184 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8958
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - INFO - Top-5 Accuracy: 0.9870
+2025-03-05 14:00:35,185 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9870
+eval :  0.8958
+At the end of Epoch #13/20: Global Avg Loss=0.552854, Eval Accuracy=0.8958
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - INFO - Loading labeled dataset...
+2025-03-05 14:01:07,482 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:07,526 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.25it/s]
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8966
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - INFO - Top-5 Accuracy: 0.9890
+2025-03-05 14:01:25,332 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9890
+eval :  0.8966
+At the end of Epoch #14/20: Global Avg Loss=0.552294, Eval Accuracy=0.8966
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.25it/s]
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - INFO - Loading labeled dataset...
+2025-03-05 14:01:57,551 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:01:57,594 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:17<00:00,  2.26it/s]
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8980
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:02:15,343 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9894
+eval :  0.898
+At the end of Epoch #15/20: Global Avg Loss=0.553017, Eval Accuracy=0.8980
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:32<00:00,  1.23it/s]
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - INFO - Loading labeled dataset...
+2025-03-05 14:02:48,026 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:02:48,111 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:18<00:00,  2.13it/s]
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,956 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.9000
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:03:06,957 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9898
+eval :  0.9
+At the end of Epoch #16/20: Global Avg Loss=0.550272, Eval Accuracy=0.9000
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:33<00:00,  1.21it/s]
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - INFO - Loading labeled dataset...
+2025-03-05 14:03:40,406 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:03:40,483 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:18<00:00,  2.12it/s]
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8976
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - INFO - Top-5 Accuracy: 0.9900
+2025-03-05 14:03:59,344 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9900
+eval :  0.8976
+At the end of Epoch #17/20: Global Avg Loss=0.549395, Eval Accuracy=0.8976
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:33<00:00,  1.21it/s]
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - INFO - Loading labeled dataset...
+2025-03-05 14:04:32,920 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:04:33,015 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:18<00:00,  2.15it/s]
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8968
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - INFO - Top-5 Accuracy: 0.9898
+2025-03-05 14:04:51,683 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9898
+eval :  0.8968
+At the end of Epoch #18/20: Global Avg Loss=0.550863, Eval Accuracy=0.8968
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:33<00:00,  1.20it/s]
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - INFO - Loading labeled dataset...
+2025-03-05 14:05:25,350 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:05:25,445 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:18<00:00,  2.13it/s]
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,224 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - INFO - Top-5 Accuracy: 0.9892
+2025-03-05 14:05:44,225 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9892
+eval :  0.8956
+At the end of Epoch #19/20: Global Avg Loss=0.551213, Eval Accuracy=0.8956
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:33<00:00,  1.21it/s]
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - INFO - Loading labeled dataset...
+2025-03-05 14:06:17,754 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:17,830 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:18<00:00,  2.11it/s]
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,790 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8956
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - INFO - Top-5 Accuracy: 0.9894
+2025-03-05 14:06:36,791 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9894
+eval :  0.8956
+At the end of Epoch #20/20: Global Avg Loss=0.551581, Eval Accuracy=0.8956
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:36,800 - AIMET_Pipeline - INFO -  Quantization-Aware Training complete.
+2025-03-05 14:06:46,459 - Utils - INFO - successfully created onnx model with 481/3029 node names updated
+2025-03-05 14:06:47,414 - Quant - INFO - Layers excluded from quantization: []
+2025-03-05 14:06:47,422 - Quant - WARNING - Quantsim export will stop exporting encodings for saving and loading in a future AIMET release.
+To export encodings for saving and loading, use QuantizationSimModel's save_encodings_to_json() utility instead.
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - INFO - Loading labeled dataset...
+2025-03-05 14:06:47,433 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/val/
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:06:47,804 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:07:18,362 - ConnectedGraph - WARNING - Unable to isolate model outputs.
+2025-03-05 14:07:40,606 - ConnectedGraph - WARNING - Unable to isolate model outputs.
+2025-03-05 14:07:40,761 - CrossLayerEqualization - INFO - High Bias folding is not supported for models without BatchNorm Layers
+Skipping bias correction as no BatchNorm layers were found.
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - INFO - Performing Manual Quantization...
+2025-03-05 14:07:40,797 - AIMET_Pipeline - INFO - Performing Manual Quantization...
+2025-03-05 14:08:12,710 - ConnectedGraph - WARNING - Unable to isolate model outputs.
+2025-03-05 14:08:12,993 - Quant - INFO - No config file provided, defaulting to config file at /home/ava/anaconda3/envs/harish-swin/lib/python3.10/site-packages/aimet_common/quantsim_config/default_config.json
+2025-03-05 14:08:13,029 - Quant - INFO - Unsupported op type Squeeze
+2025-03-05 14:08:13,029 - Quant - INFO - Unsupported op type Mean
+2025-03-05 14:08:13,072 - Quant - INFO - Selecting DefaultOpInstanceConfigGenerator to compute the specialized config. hw_version:default
+2025-03-05 14:08:13,079 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,079 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,079 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,080 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,080 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,080 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,080 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,081 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,081 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,081 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,082 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,082 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,082 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,082 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,083 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,083 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,083 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,083 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,084 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,084 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,084 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,084 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,085 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,085 - Quant - WARNING - Multiple input ops exist, traversal to find closest producer is performed based on the first input
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - INFO - Loading labeled dataset...
+2025-03-05 14:08:13,241 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:08:13,309 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - INFO - Loading labeled dataset...
+2025-03-05 14:09:59,956 - AIMET_Pipeline - INFO - Loading labeled dataset...
+Loading data from: /media/ava/DATA/datasets/50k_imagenet/train/
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - INFO - Dataset size: 5000 | DataLoader batches: 40
+2025-03-05 14:10:00,022 - AIMET_Pipeline - INFO - Dataset size: 5000 | DataLoader batches: 40
+Evaluating model: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:19<00:00,  2.10it/s]
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,065 - AIMET_Pipeline - INFO - Top-1 Accuracy: 0.8952
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,066 - AIMET_Pipeline - INFO - Top-5 Accuracy: 0.9880
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:19,070 - AIMET_Pipeline - INFO - Manual Quantization Accuracy: 0.8952
+2025-03-05 14:10:27,318 - Utils - INFO - successfully created onnx model with 481/3029 node names updated
+2025-03-05 14:10:28,390 - Quant - INFO - Layers excluded from quantization: []
+2025-03-05 14:10:28,396 - Quant - WARNING - Quantsim export will stop exporting encodings for saving and loading in a future AIMET release.
+To export encodings for saving and loading, use QuantizationSimModel's save_encodings_to_json() utility instead.

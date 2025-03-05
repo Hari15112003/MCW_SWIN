@@ -10,7 +10,7 @@
       "normalize": true
   },
   "training": {
-      "batch_size": 128,
+      "batch_size": 32,
       "epochs": 10,
       "max_epochs": 20,
       "learning_rate": 5e-7,
@@ -30,7 +30,7 @@
       "act_bw":8,
       "auto_quant": false,
       "manual_quant": false,
-      "qat": false,
+      "qat": true,
       "ptq_flag":true,
       "ptq": {
         "cle": true , 
